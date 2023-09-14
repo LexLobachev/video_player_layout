@@ -2,4 +2,4 @@
 
 Training project on working with layout
 
-![Image alt](https://github.com/LexLobachev/video_player_layout/player.png)
+![Image alt](https://github.com/LexLobachev/video_player_layout/blob/master/player.png)
