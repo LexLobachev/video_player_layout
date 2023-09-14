@@ -6,6 +6,8 @@
       width: 800px;
       height: 600px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
     }
     .player .button {
       border: none #fff;
@@ -14,7 +16,7 @@
       background-color: transparent;
     }
     .player .screen {
-      width: 100%; height: 100%
+      flex-grow: 1;
     }
     .player .bottom-controls{
       background-color: black;
@@ -44,15 +46,15 @@
       <button class="button js-mute-button" hidden>Mute</button>
       <button class="button js-fullscreen-button">Fullscreen</button>
     </div>
-    <div class="viewing-panel">
-      <span class="js-current-time"></span>
-      —
-      <span class="js-duration"></span>
-    </div>
+<!--    <div class="viewing-panel">-->
+<!--      <span class="js-current-time"></span>-->
+<!--      —-->
+<!--      <span class="js-duration"></span>-->
+<!--    </div>-->
 
-    <div class="progress js-progress">
-      <div class="progress-slider js-progress-slider">Прогресс</div>
-    </div>
+<!--    <div class="progress js-progress">-->
+<!--      <div class="progress-slider js-progress-slider">Прогресс</div>-->
+<!--    </div>-->
   </div>
 
   <link rel="stylesheet" href="font-awesome.min.css">
